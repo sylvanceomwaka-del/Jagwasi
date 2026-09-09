@@ -1,0 +1,68 @@
+build	Build debug APK	﻿2026-09-09T22:06:22.6049911Z ##[group]Run ./gradlew assembleDebug --no-daemon
+build	Build debug APK	2026-09-09T22:06:22.6050392Z ^[[36;1m./gradlew assembleDebug --no-daemon^[[0m
+build	Build debug APK	2026-09-09T22:06:22.6092607Z shell: /usr/bin/bash -e {0}
+build	Build debug APK	2026-09-09T22:06:22.6092886Z env:
+build	Build debug APK	2026-09-09T22:06:22.6093198Z   JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+build	Build debug APK	2026-09-09T22:06:22.6093710Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.20-1/x64
+build	Build debug APK	2026-09-09T22:06:22.6094111Z   ANDROID_HOME: /usr/local/lib/android/sdk
+build	Build debug APK	2026-09-09T22:06:22.6094431Z   ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+build	Build debug APK	2026-09-09T22:06:22.6094710Z ##[endgroup]
+build	Build debug APK	2026-09-09T22:06:22.7162020Z Fetching distribution.
+build	Build debug APK	2026-09-09T22:06:22.7163070Z Downloading https://services.gradle.org/distributions/gradle-9.7.1-bin.zip
+build	Build debug APK	2026-09-09T22:06:24.5027217Z ..............10%..............20%...............30%..............40%...............50%..............60%...............70%..............80%..............90%...............100%
+build	Build debug APK	2026-09-09T22:06:25.9403320Z 
+build	Build debug APK	2026-09-09T22:06:25.9417394Z Welcome to Gradle 9.7.1!
+build	Build debug APK	2026-09-09T22:06:25.9417865Z 
+build	Build debug APK	2026-09-09T22:06:25.9418222Z Here are the highlights of this release:
+build	Build debug APK	2026-09-09T22:06:25.9419018Z  - Isolated Projects graduates to incubating
+build	Build debug APK	2026-09-09T22:06:25.9420613Z  - Broader Configuration Cache compatibility
+build	Build debug APK	2026-09-09T22:06:25.9421534Z  - Resilient Sync helps you fix broken builds
+build	Build debug APK	2026-09-09T22:06:25.9422495Z  - More source locations in problem reports
+build	Build debug APK	2026-09-09T22:06:25.9422937Z 
+build	Build debug APK	2026-09-09T22:06:25.9423535Z For more details see https://docs.gradle.org/9.7.1/release-notes.html
+build	Build debug APK	2026-09-09T22:06:25.9424189Z 
+build	Build debug APK	2026-09-09T22:06:26.0417008Z To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+build	Build debug APK	2026-09-09T22:06:27.2410598Z Daemon will be stopped at the end of the build 
+build	Build debug APK	2026-09-09T22:07:23.6408416Z 
+build	Build debug APK	2026-09-09T22:07:23.6478579Z 
+build	Build debug APK	2026-09-09T22:07:23.6483351Z FAILURE: Build completed with 2 failures.
+build	Build debug APK	2026-09-09T22:07:23.6484557Z [Incubating] Problems report is available at: file:///home/runner/work/Jagwasi/Jagwasi/build/reports/problems/problems-report.html
+build	Build debug APK	2026-09-09T22:07:23.6490964Z 
+build	Build debug APK	2026-09-09T22:07:23.6491909Z Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+build	Build debug APK	2026-09-09T22:07:23.6492506Z 
+build	Build debug APK	2026-09-09T22:07:23.6493085Z You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+build	Build debug APK	2026-09-09T22:07:23.6493648Z 
+build	Build debug APK	2026-09-09T22:07:23.6494328Z For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+build	Build debug APK	2026-09-09T22:07:23.6495200Z 
+build	Build debug APK	2026-09-09T22:07:23.6495946Z 1: Task failed with an exception.
+build	Build debug APK	2026-09-09T22:07:23.6496930Z -----------
+build	Build debug APK	2026-09-09T22:07:23.6499635Z * What went wrong:
+build	Build debug APK	2026-09-09T22:07:23.6500512Z A problem occurred configuring project ':app'.
+build	Build debug APK	2026-09-09T22:07:23.6502426Z > Failed to notify project evaluation listener.
+build	Build debug APK	2026-09-09T22:07:23.6504168Z    > 'org.gradle.api.file.FileCollection org.gradle.api.artifacts.Configuration.fileCollection(org.gradle.api.specs.Spec)'
+build	Build debug APK	2026-09-09T22:07:23.6505426Z 
+build	Build debug APK	2026-09-09T22:07:23.6505990Z * Try:
+build	Build debug APK	2026-09-09T22:07:23.6508159Z > Run with --stacktrace option to get the stack trace.
+build	Build debug APK	2026-09-09T22:07:23.6509191Z > Run with --info or --debug option to get more log output.
+build	Build debug APK	2026-09-09T22:07:23.6510773Z > Run with --scan to get full insights from a Build Scan (powered by Develocity).
+build	Build debug APK	2026-09-09T22:07:23.6514489Z > Get more help at https://help.gradle.org.
+build	Build debug APK	2026-09-09T22:07:23.6515245Z ==============================================================================
+build	Build debug APK	2026-09-09T22:07:23.6515634Z 
+build	Build debug APK	2026-09-09T22:07:23.6516282Z 2: Task failed with an exception.
+build	Build debug APK	2026-09-09T22:07:23.6516787Z -----------
+build	Build debug APK	2026-09-09T22:07:23.6517229Z * What went wrong:
+build	Build debug APK	2026-09-09T22:07:23.6517889Z Failed to query the value of property 'buildFlowServiceProperty'.
+build	Build debug APK	2026-09-09T22:07:23.6519945Z > Could not isolate value org.jetbrains.kotlin.gradle.plugin.statistics.BuildFlowService$Parameters_Decorated@4617a357 of type BuildFlowService.Parameters
+build	Build debug APK	2026-09-09T22:07:23.6521373Z    > A problem occurred configuring project ':app'.
+build	Build debug APK	2026-09-09T22:07:23.6522147Z       > Failed to notify project evaluation listener.
+build	Build debug APK	2026-09-09T22:07:23.6523565Z          > 'org.gradle.api.file.FileCollection org.gradle.api.artifacts.Configuration.fileCollection(org.gradle.api.specs.Spec)'
+build	Build debug APK	2026-09-09T22:07:23.6524267Z 
+build	Build debug APK	2026-09-09T22:07:23.6524413Z * Try:
+build	Build debug APK	2026-09-09T22:07:23.6524878Z > Run with --stacktrace option to get the stack trace.
+build	Build debug APK	2026-09-09T22:07:23.6525473Z > Run with --info or --debug option to get more log output.
+build	Build debug APK	2026-09-09T22:07:23.6526839Z > Run with --scan to get full insights from a Build Scan (powered by Develocity).
+build	Build debug APK	2026-09-09T22:07:23.6528013Z > Get more help at https://help.gradle.org.
+build	Build debug APK	2026-09-09T22:07:23.6528816Z ==============================================================================
+build	Build debug APK	2026-09-09T22:07:23.6530544Z 
+build	Build debug APK	2026-09-09T22:07:23.6531083Z BUILD FAILED in 1m
+build	Build debug APK	2026-09-09T22:07:23.8460143Z ##[error]Process completed with exit code 1.
