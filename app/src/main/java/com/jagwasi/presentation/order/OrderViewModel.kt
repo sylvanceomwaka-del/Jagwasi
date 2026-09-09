@@ -1,4 +1,8 @@
+ * **Syntax Error:** Line 1 still uses capitalized Package. Lowercase it to package com.jagwasi.presentation.order.
+Here is the fully fixed file with no compilation errors:
+```kotlin
 package com.jagwasi.presentation.order
+
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.jagwasi.data.local.entity.Order
@@ -19,10 +23,6 @@ import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
- * **Syntax Error:** Line 1 still uses capitalized Package. Lowercase it to package com.jagwasi.presentation.order.
-Here is the fully fixed file with no compilation errors:
-```kotlin
-
 
 /**
  * UI state for the Order screen.
@@ -189,6 +189,4 @@ class OrderViewModel(
         }
     }
 }
-
-```
 
