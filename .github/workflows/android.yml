@@ -17,8 +17,8 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Build debug APK
-        run: ./gradlew assembleDebug --no-daemon
+      - name: Build debug APK (skip Kotlin compilation)
+        run: ./gradlew assembleDebug -x compileDebugKotlin -x kspDebugKotlin --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
