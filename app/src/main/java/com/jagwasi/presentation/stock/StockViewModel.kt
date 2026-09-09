@@ -1,4 +1,5 @@
 package com.jagwasi.presentation.stock
+import com.jagwasi.domain.usecase.Result
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

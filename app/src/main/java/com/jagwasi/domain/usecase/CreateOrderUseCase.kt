@@ -84,7 +84,7 @@ class CreateOrderUseCase(
 }
 
 // Result type (defined elsewhere in the project)
-// sealed class Result<out T> {
-//     data class Success<out T>(val data: T) : Result<T>()
-//     data class Failure(val message: String) : Result<Nothing>()
-// }
+sealed class Result<out T> {
+    data class Success<out T>(val data: T) : Result<T>()
+    data class Failure(val message: String) : Result<Nothing>()
+}

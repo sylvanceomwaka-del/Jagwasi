@@ -1,4 +1,5 @@
 package com.jagwasi.presentation.stock
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement
