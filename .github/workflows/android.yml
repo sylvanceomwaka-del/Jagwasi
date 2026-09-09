@@ -19,7 +19,7 @@ jobs:
 
       - name: Build debug APK (skip Kotlin compilation)
 
-        run: ./gradlew assembleDebug --no-daemon
+        run: ./gradlew assembleDebug -x compileDebugKotlin -x kspDebugKotlin --no-daemon
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
