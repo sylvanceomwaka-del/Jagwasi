@@ -1,8 +1,11 @@
-// MealCardRepository.kt (corrected interface)
 package com.jagwasi.data.repository
-
 import com.jagwasi.data.local.entity.MealCard
 import kotlinx.coroutines.flow.Flow
+import com.jagwasi.data.local.dao.MealCardDao
+import com.jagwasi.data.local.entity.MealCard
+import kotlinx.coroutines.flow.Flow
+// MealCardRepository.kt (corrected interface)
+
 
 interface MealCardRepository {
     suspend fun insertMealCard(mealCard: MealCard): Long
@@ -13,11 +16,7 @@ interface MealCardRepository {
     fun getAllMealCards(): Flow<List<MealCard>>
 }
 // MealCardRepositoryImpl.kt (corrected implementation)
-package com.jagwasi.data.repository
 
-import com.jagwasi.data.local.dao.MealCardDao
-import com.jagwasi.data.local.entity.MealCard
-import kotlinx.coroutines.flow.Flow
 
 class MealCardRepositoryImpl(
     private val mealCardDao: MealCardDao
