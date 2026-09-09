@@ -10,9 +10,6 @@ data class Order(
     @ColumnInfo(name = "id")
     val id: Int = 0,
 
-    @ColumnInfo(name = "meal_card_id")
-    val mealCardId: Int,
-
     @ColumnInfo(name = "customer_name")
     val customerName: String,
 
@@ -26,5 +23,5 @@ data class Order(
     val status: String = "PENDING", // "PENDING", "PAID", "COMPLETED"
 
     @ColumnInfo(name = "timestamp")
-    val timestamp: Long // caller must provide System.currentTimeMillis()
+    val timestamp: Long
 )
